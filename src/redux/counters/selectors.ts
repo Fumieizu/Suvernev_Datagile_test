@@ -1,3 +1,5 @@
 import { RootState } from '../store';
 
-export const getCountersList = (state: RootState) => state.countersReducer.counters;
+export const getCounters = (state: RootState) => state.countersReducer.counters;
+
+export const getTotalValue = (state: RootState) => state.countersReducer.totalValue;
